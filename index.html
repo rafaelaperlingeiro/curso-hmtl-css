@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Curso HTML e CSS</title>
+</head>
+<body>
+  <header>
+    <h2>
+      Curso de HTML e CSS
+    </h2>
+    <nav>
+      <a href="#introducao"> Introdução</a>
+      <a href="#topicos">Tópicos</a>
+      <a href="#cronograma">Cronograma</a>
+      <a href="#avaliacao">Avaliação</a>
+    </nav>
+  </header>
+  <main>
+    <article id="introducao">
+      <h3>Introdução sobre o curso</h3>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique magni doloremque provident possimus itaque,
+        numquam obcaecati sint veritatis eligendi eum sit doloribus recusandae tempora ipsa, natus aut officiis.
+        Mollitia, temporibus!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique magni doloremque provident possimus itaque,
+        numquam obcaecati sint veritatis eligendi eum sit doloribus recusandae tempora ipsa, natus aut officiis.
+        Mollitia, temporibus!
+      </p>
+    </article>
+    <div id="topicos">
+      <h3>Tópicos tratados no curso</h3>
+      <ol type="a">
+        <li>
+          <p>Sua primeira página HTML</p>
+          <UL>
+            <li>Sub lista</li>
+            <li>Sub lista 2</li>
+            <li>Sub lista 3</li>
+          </UL>
+        </li>
+        <li>
+          <p>Sua segunda página HTML</p>
+        </li>
+        <li>
+          <p>Sua terceira página HTML</p>
+        </li>
+      </ol>
+    <div id="cronograma">
+      <h3>Cronograma do curso</h3>
+      <table>
+        <thead></thead>
+        <tr>
+          <th>ID</th>
+          <th>Título</th>
+          <th>Assuntos</th>
+        </tr>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Sua primeira página HMTL</td>
+            <td>Apresentação do curso e ambiente de dev</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sua segunda página HMTL</td>
+            <td>Estrutura inicial</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Sua terceira página HMTL</td>
+            <td>Outras coisas</td>
+          </tr>
+        </tbody>
+        <tfoot></tfoot>
+      </table>
+    </div>
+    <section id="avaliacao">
+      <h3>Form de Avaliação</h3>
+      <form action>
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+      </div>
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="text" id="email">
+      </div>
+      <div>
+        <label for="nota">Nota:</label>
+        <select name="nota" id="nota">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div>
+        <label for="comentarios">Comentários:</label>
+        <textarea name="comentarios" id="comentarios"></textarea>
+      </div>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+    <div class="midias" id="midias">
+      <h3>Mídias</h3>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14700.839645866723!2d-43.118300608860686!3d-22.9056271667068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983fb389abaa1%3A0x39be736e0658afec!2zSWNhcmHDrSwgTml0ZXLDs2kgLSBSSg!5e0!3m2!1spt-BR!2sbr!4v1683588937606!5m2!1spt-BR!2sbr"
+          width="300" height="45%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <embed src="https://youtube.com/embed/8UVNT4wvIGY"
+          type=""
+          width="300"
+          height="45%">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Por Rafaela Perlingeiro
+  </footer>
+
+</body>
+
+</html>
